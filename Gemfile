@@ -46,7 +46,7 @@ group :development do
   gem 'sqlite3', '~> 1.4'
 end
 
-group :development do
+group :production do
   gem 'pg', '~> 1.2', '>= 1.2.3'
   #before you also had to add
   #gem 'rails_12factor', '0.0.2'
